@@ -1,0 +1,45 @@
+header {
+    background-color: purple;
+
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+}
+
+.article-title {
+    font-family: arial;
+}
+
+.article-date {
+    color: grey;
+    font-style: italic;
+}
+
+.article-author {
+    color: grey;
+}
+
+#footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* DRY; Don't Repeat Your
+KISS;Keep It Simple Stupid
+*/
+header,
+#footer {
+    background-color: purple;
+}
+
+.article-date,
+.article-author {
+    color: grey;
+}

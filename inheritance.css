@@ -1,0 +1,12 @@
+/* p inherits from parent element */
+div {
+    color: cyan;
+    background-color: white;
+    border: 1px solid black;
+    /*border does not inherit */
+}
+
+/* p set to initial */
+p {
+    color: initial;
+}
